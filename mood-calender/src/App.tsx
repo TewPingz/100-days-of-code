@@ -150,7 +150,7 @@ function App() {
                       <button
                         className="day-container"
                         onClick={() => {
-                          if (selectedMood) {
+                          if (selectedMood != undefined) {
                             setTrackedMoods([
                               ...trackedMoods.filter(
                                 (element) =>
